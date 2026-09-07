@@ -1,12 +1,5 @@
 ## Gary Ding
 
-I build agents that act on physical systems.
-
-Both halves of my work have the same shape: a language model proposes, a real solver
-validates, and something in the world executes — a robot arm, or a fuel-break budget
-someone has to actually fund. The interesting part is never the model. It's the layer
-that refuses to let the model hallucinate a joint angle or a parcel boundary.
-
 Dartmouth '27 — B.A. Environmental Earth Sciences modified with Computer Science.
 ORISE Research Fellow, USDA Forest Service. Google Summer of Code contributor in 2022
 (OpenCV) and 2026 (dora-rs).
