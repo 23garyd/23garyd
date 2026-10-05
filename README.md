@@ -51,6 +51,13 @@ constant, native species suitability from NRCS climatic-elevation envelopes and 
 water deficit, and three-year implementation-plus-maintenance cost models. First author on
 a manuscript in preparation.
 
+**[RoundaboutDesigner](https://github.com/23garyd/RoundaboutDesigner)**: an ArcGIS Pro add-in
+(C# / .NET 8) that screens every intersection in a U.S. city for roundabout conversion. It pulls
+OSM, FHWA HPMS, NHTSA FARS, USACE NSI and Census ACS data on its own, scores sites on five
+weighted criteria, recommends a roundabout type from FHWA thresholds, and estimates cost. A Gemini
+assistant with 11 function-calling tools filters, re-ranks and explains the results, grounded in
+FHWA guidance through RAG. The model picks tools and explains; the numbers come from code.
+
 ---
 
 ### Stack
