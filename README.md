@@ -18,6 +18,23 @@ rather than halting the dataflow. Delivered as 13 weekly PRs across the summer, 
 unit tests, a full documentation set and a rendered demo, all of it
 [merged into main](https://github.com/dora-rs/gsoc2026-dora-agentic-robot/pull/48).
 
+**[ASPIRE simulation](https://github.com/23garyd/aspire-sim-reproduction)** ·
+**[ASPIRE B601 adapter](https://github.com/23garyd/aspire-robot-B601)**
+
+Reproduction of ASPIRE's skill-accumulation approach: program generation, trace-guided
+repair, skill retrieval and held-out evaluation in simulation. The separate B601 adapter
+implements ROS 2 vendor transport, bounded motion and traceable execution. Verification
+currently uses a fake driver; physical bench validation remains outstanding.
+
+**[HarnessVLA simulation](https://github.com/23garyd/harnessvla-sim-reproduction)** ·
+**[HarnessVLA on reBot B601](https://github.com/23garyd/harnessvla-rebot-b601)**
+
+Frozen-policy manipulation with an outer loop for observation, verification, retries and
+memory. The LIBERO-Pro track provides paired comparisons and mechanism ablations; the B601
+track covers ACT data collection and training records, hardware integration, trial gates,
+video and telemetry. The scored hardware comparison tied the baseline, with no demonstrated
+recovery-branch success.
+
 **[isaacSim-go2-humble](https://github.com/23garyd/isaacSim-go2-humble)**: Isaac Sim 4.5
 and Isaac Lab brought up on RTX-50-series hardware under Ubuntu 22.04, bridged to ROS 2
 Humble Nav2 for a Unitree Go2 quadruped.
